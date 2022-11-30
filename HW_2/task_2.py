@@ -16,4 +16,5 @@ factorial = 1
 for i in range(1, num+1):
     factorial=factorial*i
     my_list.append(factorial)
+
 print(my_list)
