@@ -17,6 +17,7 @@ False
 """
 
 num=int(input("Введите день недели от 1 до 7: "))
+
 if num < 1 or num > 7:
     print("Номер недели введен некорректно!")
 elif num==6 or num==7:
