@@ -10,3 +10,21 @@
 3
 x < 0, y < 0
 """
+
+quarter=int(input("Введите номер координатной четверти: "))
+# if num < 1 or num > 7:
+#     print("Номер недели введен некорректно!")
+# elif num==6 or num==7:
+#     print("Выходной! Ура!")
+# else:
+#     print("Вставать пора, собирайтесь на работу!")
+if quarter < 1 or quarter > 4:
+    print("Вы ввели не существующий номер четверти!")
+elif quarter==1:
+    print("x>0, y>0")
+elif quarter==2:
+    print("x<0, y>0")
+elif quarter==3:
+    print("x<0, y<0")
+elif quarter==4:
+    print("x>0, y<0")
