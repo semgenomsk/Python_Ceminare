@@ -8,15 +8,15 @@
 Вывод: значение типа <int>
 """
 
-# from random inport randint
+from random inport randint
 
-# num = int(input("Введите число: "))
-# my_list = [randint(-num, num)] for _in range(num)]
-# print(my_list)
+num = int(input("Введите число: "))
+my_list = [randint(-num, num)] for _in range(num)]
+print(my_list)
 
-# res= 1
-# with open('indexes.txt', 'r') as file:
-#     for line in file:
-#         index= int(line)
-#         if len(my_list) > index >= num:
-# print(res)
+res = 1
+with open('indexes.txt', 'r') as file:
+    for line in file:
+        index = int(line)
+        if num > index >= num:
+print(res)
