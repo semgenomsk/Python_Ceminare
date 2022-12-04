@@ -14,7 +14,7 @@ num = int(input("Введите число n: "))
 my_list = []
 factorial = 1
 for i in range(1, num+1):
-    factorial=factorial*i
+    factorial *= i
     my_list.append(factorial)
 
 print(my_list)
