@@ -11,15 +11,15 @@
 x < 0, y < 0
 """
 
-quarter=int(input("Введите номер координатной четверти: "))
+quarter = int(input("Введите номер координатной четверти: "))
 
 if quarter < 1 or quarter > 4:
     print("Вы ввели не существующий номер четверти!")
-elif quarter==1:
-    print("x>0, y>0")
-elif quarter==2:
-    print("x<0, y>0")
-elif quarter==3:
-    print("x<0, y<0")
-elif quarter==4:
-    print("x>0, y<0")
+elif quarter == 1:
+    print("x > 0, y > 0")
+elif quarter == 2:
+    print("x < 0, y > 0")
+elif quarter == 3:
+    print("x < 0, y < 0")
+elif quarter == 4:
+    print("x > 0, y < 0")
