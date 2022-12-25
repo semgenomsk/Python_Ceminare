@@ -13,3 +13,6 @@
 [1, 3, 5]
 [1, 2, 5, 3, 10]
 """
+user = [1, 2, 2, 3, 4]
+res = list(filter(lambda x: user.count(x) == 1, user))
+print(res)
